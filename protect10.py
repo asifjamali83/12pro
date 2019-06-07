@@ -7,52 +7,52 @@ import time,random,sys,json,codecs,threading,glob,re,os,subprocess,ast,requests
 
 cl = LINETCR.LINE() #LULY 4
 #cl.login(token='EqNQbHEC2On79FPw9I98.T7wQ6Fh12YlZQUcbuycIIa.LscxpP7GVAtUGbCypt6IYamMuIBwtlc8bUyTkk7Txdg=')
-cl.login(token='EqicsCjcHpVC4XlNP8O2.ZWXwD1cn0eMz0FrM4e6YGG.vKDlz0NSxJ6s62UBLEmGsad9QyxkYyi42qN5KehZDiU=')
+cl.login(token='EFitAQlaqdMz659xrog4.v1HrXTya8vs3Kmp/GY36La.YK0lAHUSB+3cZrROYJicXyV6BW28n59IPL3+6so7DgU=')
 cl.loginResult()
 
 ki = LINETCR.LINE()#LULY 2
-ki.login(token='EqW3J2sYqwNG6edEqtQ2.CVinXI4qGyDjp6jla+oImG.k24B0f9Sn4fgGcvo7Jy9a0A4CcE1YYc4XTpaz+OrAuA=')
+ki.login(token='EF5yaohc7GcnExGpPtAb.iEKLQqr+KXdSVGWpsvd/QW.hGk1ZTM44oa6VUxNGz9DSQmqEAlkbeBcpE0cUwnLdzs=')
 ki.loginResult()
 
 kk = LINETCR.LINE()#LULY 3
-kk.login(token='EqfgvCBdfNuiPACSbkC7.bqgPZ63D9VWXaYawSNkIXW.pW1vsAdKtRbwvtVVYw166W62G0kWupGfRVPkd3u+UaA=')
+kk.login(token='EF49wrk3oIrh1lWyRnF0.nvD/uRjfRoBETK4ZOWhZSa.3GJMLgxnJ6CoFaOaNBjmkNGhjDOjPDsCIdJVBtpnCng=')
 kk.loginResult()
 
 kc = LINETCR.LINE()#LULY 1
 #kc.login(token='EqicsCjcHpVC4XlNP8O2.ZWXwD1cn0eMz0FrM4e6YGG.vKDlz0NSxJ6s62UBLEmGsad9QyxkYyi42qN5KehZDiU=')
-kc.login(token='EqKfbgfMDoy2r4QcjZP8.T7wQ6Fh12YlZQUcbuycIIa.w3fsSOh5K/LDMLyIJMfMKmnW6R//E9uXcVKuo7Gp8Oc=')
+kc.login(token='EFgS2ZfQ1QJRlkCY4SM4./Coef04cSd1Ymaih+V2ADa.+gZ7mkM8pohBkL97g7IjWacuqwgaM6RDyLCetjtxA7k=')
 kc.loginResult()
 
 ks = LINETCR.LINE()#LULY 5 REVOKE
-ks.login(token='EqaKQah5AudFwpge8sg3.Ojugj6pI675koFyInIg/eW.u+AgYZPDVSoqA2XKLnB2ziaZoRVUTa0gM97S7rxmgBY=')
+ks.login(token='EFkWxBjUivxkoZBoO6p1.f04Z5tIwN8oo0wvkaqNsqq.ylJ4f7++HXMP5mmeuL4MTtDSzmI39jzk3UwXDnWSxVE=')
 ks.loginResult()
 
 ka = LINETCR.LINE()#LULY 6
-ka.login(token='EqeYrmyPvDhYSh7u8Z3e.mmV8E3lRORGI+mahQeUxhG.+jUaVoLkjxFmyNUByxvu1cgh6rkG0jilyW0o30DhJIM=')
+ka.login(token='EFLokmnYGRNtWG2v2SU5.hY1gor5CBWozmN09XaJ2nq.a7UI3Vjw2oOv2s8BIlDF6DkmSYm5/iCi/zJe4p3nRIg=')
 ka.loginResult()
 
 kb = LINETCR.LINE()#LULY 7
-kb.login(token='EqcKXylOShVcYud9GPda.nsqKVPcDmxwvd7Gj8nsMwG.2z+gPr6ZL2koE60TxmM50OQq+KU84IR29ley6NhaV0E=')
+kb.login(token='EFdTKWhbbSiroRo6amQd.JZJ/1Jhb9oyNKqIA+uiyFq.l1e6VJ4eo4xFAJDJBWl6bPAAIqcg8uCwS+Kv/8If92E=')
 kb.loginResult()
 
 ko = LINETCR.LINE()#LULY 9
-ko.login(token='EqVdjRT70HeDQ5vXDnza.tia0/9Nx/Xhdsbvm7zsMUG.QcoXrSL7Ch8eZ/njHMiT3q+6R42w5vcwNuuToNQ3Ngw=')
+ko.login(token='EFZUic52lOXfXyBhy277.t/IdFcgcW7pVEtQdsL6WzW.0KPQzxVupBE8zJimSx8UsuQzIMmLmx8TfCWbSUKPig8=')
 ko.loginResult()
 
 ke = LINETCR.LINE()#LULY 10
-ke.login(token='EqHrPHKxbrivf8nBuJc1.7Vj4PbF6c/fLQ1mpR7ueKq.efpIoUmdCXQ672CfoXlqChcjSZB3QGe0bODtDsbUSss=')
+ke.login(token='EFW9269im8b5ymsZW6k9.sq7xakrN1v28/yW8CSq42q.uiVktMG5AzV5lrn2tVrv66w7AnO7+6L0Y8wIoWSBAC8=')
 ke.loginResult()
 
 ku = LINETCR.LINE()#LULY 11
-ku.login(token='Eqro3x65SLU4nI9FlvWf.C5yAKzxMj1KlfU/3WCQ7RW.obisoAdgo9yhx4kMSgpEOV6iAndre/AzNiyTBvtChtM=')
+ku.login(token='EFEtOrP4OI3T3bUVXjub.bAXEGo6vXQI0VRhomlb3MW.hhjT+wYlx4jsr8E5SwQaGTLWVH5qKAKZnN8DY4oWLsM=')
 ku.loginResult()
 
 k1 = LINETCR.LINE()#LULY 12 (GHOST)
-k1.login(token='EqokjYNGPBaFqnLhPcG0.kcN6/9FPftg2t+oFYoWlqa.ClT7ous8Mu1a9c3Iq3K+O6tkGwMl8RwrNSpJHtmYnW0=')
+k1.login(token='EFmZI7AyEF4yUVOlgvAa.uA70OmZ6xGXhLjifkBHlgG.u8JwLoZU4VbHclyyBzddWznslvCwBoO+lfw+5/gsCaI=')
 k1.loginResult()
 
 satpam = LINETCR.LINE() #Akun utama
-satpam.login(token='EqrxJWgIWq0ME4t3tS86.U+x74IHL+nzkteK31BvhXG.YkPnQX/K8wvv1CgzWRqfJK4oBPQEclW41kppO1Vj230=')
+satpam.login(token='EFKCgbHKYsPDRcEV0Ek2.XhCwJBakhq3WIw4uZqu08G.9gahigg8sbRSeqesJ7oj2ScjUWh8o/JtokZIaiASLRY=')
 satpam.loginResult()
 
 print("=================[டΰட௶ ᴮᴼᵀ]=================")
@@ -271,8 +271,8 @@ mid1 = k1.getProfile().mid #Backup
 Bots=[mid,Amid,Bmid,Cmid,Dmid,Emid,Fmid,Gmid,Hmid,Imid,Smid,mid1,"ubbf5fbe22865fcd64a4c4937d5b547c6"]
 #there MID ud02674bbd4671d852c02883f8a4ee73d
 #abay MID ucc81edac143bab9dd6e8109b50fc4a0e
-admin=["ud02674bbd4671d852c02883f8a4ee73d","ucc81edac143bab9dd6e8109b50fc4a0e",mid] 
-owner=["ubbf5fbe22865fcd64a4c4937d5b547c6"]
+admin=["u35577e52b245ace6deb64e33a301f3b0",mid] 
+owner=["u35577e52b245ace6deb64e33a301f3b0"]
 staff=[]
 wait = {
     'contact':False,
