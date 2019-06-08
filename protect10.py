@@ -225,9 +225,9 @@ helpown = """
 ║╠❂➣Jgid
 ║╠❂➣/invitemeto: [gid]
 ║╠❂➣Masuk sayang (CL in)
-║╠❂➣Semua kesini (no CL)
+║╠❂➣/join (no CL)
 ║╠❂➣Bubar say(ALL)
-║╠❂➣Pulang beb (no CL)
+║╠❂➣/out (no CL)
 ║╠❂➣Luly like
 ║╠❂➣Luly like teman
 ║╠❂➣Sikaat (Clearse)
@@ -603,7 +603,7 @@ def bot(op):
               random.choice(KAC).updateGroup(G)
               Ticket = random.choice(KAC).reissueGroupTicket(op.param1)
               satpam.acceptGroupInvitationByTicket(op.param1,Ticket)
-              time.sleep(0.01)
+              time.sleep(0.001)
               G.preventJoinByTicket = True
               random.choice(KAC).updateGroup(G)
               satpam.updateGroup(G)
@@ -616,25 +616,25 @@ def bot(op):
                 ki.updateGroup(G)
                 Ticket = ki.reissueGroupTicket(op.param1)
                 cl.acceptGroupInvitationByTicket(op.param1,Ticket)
-                time.sleep(0.01)
+                time.sleep(0.001)
                 ki.acceptGroupInvitationByTicket(op.param1,Ticket)
-                time.sleep(0.01)
+                time.sleep(0.001)
                 kk.acceptGroupInvitationByTicket(op.param1,Ticket)
-                time.sleep(0.01)
+                time.sleep(0.001)
                 kc.acceptGroupInvitationByTicket(op.param1,Ticket)
-                time.sleep(0.01)
+                time.sleep(0.001)
                 ks.acceptGroupInvitationByTicket(op.param1,Ticket)
-                time.sleep(0.01)
+                time.sleep(0.001)
                 ka.acceptGroupInvitationByTicket(op.param1,Ticket)
-                time.sleep(0.01)
+                time.sleep(0.001)
                 kb.acceptGroupInvitationByTicket(op.param1,Ticket)
-                time.sleep(0.01)
+                time.sleep(0.001)
                 ku.acceptGroupInvitationByTicket(op.param1,Ticket)
-                time.sleep(0.01)
+                time.sleep(0.001)
                 ko.acceptGroupInvitationByTicket(op.param1,Ticket)
-                time.sleep(0.01)
+                time.sleep(0.001)
                 ke.acceptGroupInvitationByTicket(op.param1,Ticket)
-                time.sleep(0.01)
+                time.sleep(0.001)
                 G.preventJoinByTicket = True
                 ki.updateGroup(G)
               else:
@@ -644,15 +644,15 @@ def bot(op):
                 ki.updateGroup(G)
                 Ticket = ki.reissueGroupTicket(op.param1)
                 cl.acceptGroupInvitationByTicket(op.param1,Ticket)
-                time.sleep(0.01)
+                time.sleep(0.001)
                 ki.acceptGroupInvitationByTicket(op.param1,Ticket)
-                time.sleep(0.01)
+                time.sleep(0.001)
                 kk.acceptGroupInvitationByTicket(op.param1,Ticket)
-                time.sleep(0.01)
+                time.sleep(0.001)
                 kc.acceptGroupInvitationByTicket(op.param1,Ticket)
-                time.sleep(0.01)
+                time.sleep(0.001)
                 ks.acceptGroupInvitationByTicket(op.param1,Ticket)
-                time.sleep(0.01)
+                time.sleep(0.001)
                 ka.acceptGroupInvitationByTicket(op.param1,Ticket)
                 time.sleep(0.01)
                 kb.acceptGroupInvitationByTicket(op.param1,Ticket)
@@ -2662,7 +2662,7 @@ def bot(op):
 
 #-----------------------------------------------
          #----------------Fungsi Join Group Start-----------------------#
-            elif msg.text in ["Masuk sayang","Mojok sini beb"]:
+            elif msg.text in ["Masuk sayang",".join"]:
               if msg.from_ in owner:
                         G = cl.getGroup(msg.to)
                         ginfo = cl.getGroup(msg.to)
@@ -2706,7 +2706,7 @@ def bot(op):
                         random.choice(KAC).sendText(msg.to, "Semua sudah legkap sayang..!!")
                         random.choice(KAC).updateGroup(G)
   
-            elif msg.text in ["Semuanya kesini"]:
+            elif msg.text in ["/join"]:
               if msg.from_ in owner:
                         G = satpam.getGroup(msg.to)
                         ginfo = satpam.getGroup(msg.to)
@@ -2715,34 +2715,34 @@ def bot(op):
                         invsend = 0
                         Ticket = satpam.reissueGroupTicket(msg.to)
                         cl.acceptGroupInvitationByTicket(msg.to,Ticket)
-                        time.sleep(0.01)
+                        time.sleep(0.001)
                         cl.sendText(msg.to, "Aku datang beb")
                         ki.acceptGroupInvitationByTicket(msg.to,Ticket)
-                        time.sleep(0.01)
+                        time.sleep(0.001)
                         ki.sendText(msg.to, "Aku temenin sayang")
                         kk.acceptGroupInvitationByTicket(msg.to,Ticket)
-                        time.sleep(0.01)
+                        time.sleep(0.001)
                         kk.sendText(msg.to, "Njiiiir ke tiga gw")
                         kc.acceptGroupInvitationByTicket(msg.to,Ticket)
-                        time.sleep(0.01)
+                        time.sleep(0.001)
                         kc.sendText(msg.to, "Assyik mojok beb")
                         ks.acceptGroupInvitationByTicket(msg.to,Ticket)
-                        time.sleep(0.01)
+                        time.sleep(0.001)
                         ks.sendText(msg.to, "Hadir sayang ku, cinta ku")
                         ka.acceptGroupInvitationByTicket(msg.to,Ticket)
-                        time.sleep(0.01)
+                        time.sleep(0.001)
                         ka.sendText(msg.to, "Gw mah cipok aja dah, muaaaach")
                         kb.acceptGroupInvitationByTicket(msg.to,Ticket)
-                        time.sleep(0.01)
+                        time.sleep(0.001)
                         kb.sendText(msg.to, "Muaaaaaach juga")
                         ko.acceptGroupInvitationByTicket(msg.to,Ticket)
-                        time.sleep(0.01)
+                        time.sleep(0.001)
                         ko.sendText(msg.to, "Muaaacccchh lagi")
                         ke.acceptGroupInvitationByTicket(msg.to,Ticket)
-                        time.sleep(0.01)
+                        time.sleep(0.001)
                         ke.sendText(msg.to, "Cintaaaaaaaaaa")
                         ku.acceptGroupInvitationByTicket(msg.to,Ticket)
-                        time.sleep(0.01)
+                        time.sleep(0.001)
                         ku.sendText(msg.to, "Njiiir barisan para mantan udah pada dateng")
                         G = satpam.getGroup(msg.to)
                         ginfo = satpam.getGroup(msg.to)
@@ -2891,7 +2891,7 @@ def bot(op):
                     except:
                         pass
             
-            elif msg.text in ["Pulang beb"]:
+            elif msg.text in ["/out"]:
               if msg.from_ in admin:
                 if msg.toType == 2:
                     ginfo = cl.getGroup(msg.to)
